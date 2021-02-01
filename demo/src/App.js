@@ -1,6 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
+import React, { Component } from "react";
+
+class Cat extends Component {
+  render() {
+    return (
+      <div>
+        <p>Meow Meow</p> 
+      </div>
+    );
+  }
+}
+
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +33,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Cat></Cat>
     </div>
   );
 }
